@@ -1,0 +1,249 @@
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#ffffff, #ebdcff);
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 100px auto 120px auto;
+  width: 87.5%;
+  border-radius: 40px;
+  border: 1px solid rgba(135, 43, 255, 0.1);
+  padding: 20px 30px;
+  background-image: url("../images/hero-bg.png");
+}
+
+.banner-contant h1 {
+  font-size: 70px;
+  width: 700px;
+  font-weight: bold;
+}
+
+.banner-contant h1 span {
+  color: #f411cf;
+}
+
+.banner-contant p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #a8a8a8;
+  margin: 32px 0;
+}
+
+.btn-1 {
+  border-radius: 30px;
+  background-color: rgb(135, 43, 255);
+  padding: 16px 32px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn-2 {
+  border-radius: 30px;
+  padding: 16px 32px;
+  border: none;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid rgb(135, 43, 255);
+  cursor: pointer;
+}
+
+.banner-img img {
+  width: 600px;
+}
+
+#service,
+#story,
+#country,
+#review-card-1 {
+  width: 87.5%;
+  margin: 0 auto 120px auto;
+}
+
+.heading-contant {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.heading-contant h4 {
+  color: #f411cf;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.heading-contant h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+#service-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.service-card {
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 60px;
+}
+
+.service-card img {
+  margin-bottom: 30px;
+}
+
+.service-card h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.service-card p {
+  color: #a8a8a8;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.story-card {
+  display: flex;
+  background-color: white;
+  padding: 40px;
+  border-radius: 24px;
+  gap: 20px;
+}
+
+.story-contant h2,
+.story-contant p,
+.story-contant img {
+  margin-bottom: 25px;
+}
+
+.story-contant h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.story-contant p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#country-card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#country-card-container h2 {
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.epxlore-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.explore-btn {
+  border-radius: 30px;
+  background-color: rgb(135, 43, 255);
+  padding: 16px 32px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#review-conteiner {
+  margin-bottom: 120px;
+}
+
+#review-card-1 {
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 40px 40px;
+  border-radius: 24px;
+  align-items: center;
+}
+#review-card-1 .review-pera {
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.review-star {
+  display: flex;
+}
+
+.review-star img {
+  margin: 40px 30px 20px 0px;
+}
+
+.review-author {
+  margin-top: 55px;
+}
+.review-author p {
+  color: rgb(168, 168, 168);
+}
+
+.review-author h4 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+#footer-container {
+  background: rgb(243, 243, 243);
+
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.footer-contant p {
+  padding-top: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(91, 87, 87);
+  
+}
+.footer-contant {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.logo-png img {
+  margin-left: 20px;
+  cursor: pointer;
+}
